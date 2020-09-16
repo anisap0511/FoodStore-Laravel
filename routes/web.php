@@ -24,3 +24,5 @@ Route::get('pesan', function () {
 Route::get('transaksi', function () {
     return view('transaksi');
 });
+
+Route::resource('jurusan', 'JurusanController');
